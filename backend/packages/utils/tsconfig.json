@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* File Structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Module + Target Setup (for ESM in Node.js) */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    /* Emit Settings */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Style & Safety */
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

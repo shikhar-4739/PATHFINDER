@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./ApiError": "./dist/ApiError.js",
+    "./ApiResponse": "./dist/ApiResponse.js",
+    "./asyncHandler": "./dist/asyncHandler.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.9.2"
+  }
+}
