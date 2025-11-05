@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "exports": {
-    ".": "./dist/index.js",
-    "./ApiError": "./dist/ApiError.js",
-    "./ApiResponse": "./dist/ApiResponse.js",
-    "./asyncHandler": "./dist/asyncHandler.js"
+    ".": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",

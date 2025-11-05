@@ -3,7 +3,14 @@
   "module": "index.ts",
   "type": "module",
   "exports": {
-    "./client": "./index.ts"
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev --name init",
+    "prisma:generate": "prisma generate",
+    "prepare": "npm -w prisma:generate || npm run prisma:generate",
+    "build": "tsc -p tsconfig.json"
   },
   "private": true,
   "peerDependencies": {
